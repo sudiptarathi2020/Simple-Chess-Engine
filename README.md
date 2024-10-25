@@ -16,3 +16,7 @@ pip3 install -r requirements.txt
 ```python
 python3 ChessMain.py
 ```
+
+# Disclaimer
+Dont be fooled.I haven't implemented the full code yet.So nothing alpha beta or minimax is here.
+Also no AI/RL is here yet.
