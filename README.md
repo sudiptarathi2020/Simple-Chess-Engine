@@ -8,6 +8,11 @@ Later version will be implemented using Monte Carlo Tree Search(MCTS).
 ```bash
 git clone https://github.com/sudiptarathi2020/Simple-Chess-Engine.git
 ```
+### Move to project folder
+```bash
+cd Simple-Chess-Engine
+```
+
 ### Install The Requirements
 ```bash
 pip3 install -r requirements.txt
