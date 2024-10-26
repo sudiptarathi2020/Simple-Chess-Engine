@@ -147,13 +147,9 @@ class GameState:
             end_col = c + directions[i][1]
             if 0 <= end_row < 8 and 0 <= end_col < 8:
                 end_piece = self.board[end_row][end_col]
-                if end_piece == "--":
-                    moves.append(Move((r, c), (end_row, end_col), self.board))
-                elif end_piece[0] == enemy_color:
-                    moves.append(Move((r, c), (end_row, end_col), self.board))
-                    break
-                else:
-                    break
+                if end_piece[0] != enemy_color:
+                    moves.append(Move((r,c),(end_row,end_col),self.board))
+
 
 
 
